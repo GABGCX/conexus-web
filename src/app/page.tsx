@@ -38,8 +38,7 @@ export default function HomePage() {
             description:
               "Resolvemos problemas operacionais de pequenas e médias empresas com soluções tecnológicas simples e personalizadas.",
             url: "https://conexus.com.br",
-            telephone: "+55-85-98553-5362",
-            email: "contato@conexus.com.br",
+            email: "conexusprojetos@gmail.com",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Fortaleza",

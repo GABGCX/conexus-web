@@ -2,7 +2,7 @@ import { Resend } from "resend";
 import type { ContactMessage } from "@/server/db/schema";
 
 const FROM = process.env.RESEND_FROM_EMAIL ?? "contato@conexus.com.br";
-const NOTIFY = process.env.RESEND_NOTIFY_EMAIL ?? "conexus@conexus.com.br";
+const NOTIFY = process.env.RESEND_NOTIFY_EMAIL ?? "conexusprojetos@gmail.com";
 
 // Lazy-init: only construct the Resend client when a key is actually present.
 // Instantiating `new Resend(undefined)` throws at module load, which would
